@@ -1,0 +1,6 @@
+{
+  "name": "shiftflow-notifications-service",
+  "private": true,
+  "scripts": { "start": "node src/index.js" },
+  "dependencies": { "amqplib": "^2.0.1", "mongoose": "^8.5.1" }
+}

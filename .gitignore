@@ -1,0 +1,29 @@
+# Dependências
+node_modules/
+
+# Builds
+dist/
+build/
+*.tsbuildinfo
+
+# Segredos e configuração local (usar .env.example como modelo)
+.env
+.env.*
+!.env.example
+
+# Logs e temporários
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+
+# Testes / cobertura
+coverage/
+
+# Gerados pelo compilador a partir de vite.config.ts
+frontend/vite.config.js
+frontend/vite.config.d.ts
